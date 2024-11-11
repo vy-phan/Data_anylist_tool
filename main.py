@@ -251,7 +251,8 @@ def init_chat(df,rows):
             elif Chart_Val == 'area_chart':
                 create_area_chart(current_df, x_col, y_col)
 
-        st.markdown("### Please enter your API key if you want to use chatbot")
+        st.markdown("### Please enter your API key by Gemini if you want to use chatbot")
+        st.markdown("[Open Gemini API ](https://aistudio.google.com/app/apikey)")
         API_KEY = st.text_input("Enter your API key", type="password", key="api_input")
         button = st.button("Save API key", key="save_button")
 
