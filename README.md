@@ -1,12 +1,11 @@
-# Dashboard Tích Hợp LLM AI
-
+# Dashboard Integration LLM AI
 
 An interactive Streamlit-based dashboard that provides CSV/Excel data visualization, column analysis, and chart creation. The application integrates with the Gemini API for AI-powered data insights, offering analysis recommendations, chart suggestions, and assistance in understanding visualizations.
 
 ## Features
 
 ### 📂 File Import
-- **Supported formats**: CSV,TSV,XLS.
+- **Supported formats**: CSV,TSV,XLS,XLXS.
 - Upload your dataset and instantly view its structure.
 
 ### 📊 Column Analysis
